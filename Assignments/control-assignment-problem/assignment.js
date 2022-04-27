@@ -23,8 +23,8 @@ const anotherRandomNumber = Math.random();
 
 if (
   (randomNumber > 0.7 && anotherRandomNumber > 0.7) ||
-  randomNumber < 0.2 ||
-  anotherRandomNumber < 0.2
+  randomNumber <= 0.2 ||
+  anotherRandomNumber <= 0.2
 ) {
   alert(
     `The numbers are ${randomNumber} and ${anotherRandomNumber}. Thus, they satisfy the conditions.`
